@@ -9,7 +9,6 @@ const ExpenseItem = (props) => {
 
     const [title, setTitle] = useState(props.title);
 
-
     const clickHandler = () =>{
         setTitle("Updated!"); //setTitle()를 통해 ExpenseItem 를 다시 호출한다.
     };
